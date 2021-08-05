@@ -1,8 +1,8 @@
-# vue-hook-store
+# vue3-hook-store
 
 将 hook 缓存, 多个组件共享
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) [![npm version](https://img.shields.io/npm/v/vue-hook-store.svg?style=flat)](https://www.npmjs.com/package/vue-hook-store)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) [![npm version](https://img.shields.io/npm/v/vue3-hook-store.svg?style=flat)](https://www.npmjs.com/package/vue3-hook-store)
 
 ## 解决的问题:
 
@@ -10,14 +10,14 @@
 
 ## 安装
 
-`npm install vue-hook-store`
+`npm install vue3-hook-store`
 
 ## 开始使用
 
 ```js
 // hook.ts
-import { ref } from "@vue/composition-api";
-import { createModel, createProvideModel } from "../src";
+import { ref } from "vue";
+import { createModel, createProvideModel } from "vue3-hook-store";
 
 const testHook = (starNumber = 0) => {
   const count = ref(starNumber);

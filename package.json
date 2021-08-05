@@ -1,6 +1,6 @@
 {
-  "name": "vue-hook-store",
-  "version": "0.4.4",
+  "name": "vue3-hook-store",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "module": "./dist/index.esm.js",
   "types": "./dist/index.d.ts",
@@ -8,20 +8,19 @@
     "dist"
   ],
   "keywords": [
-    "vue2",
-    "composition-api",
+    "vue3",
     "store",
     "hook"
   ],
   "author": "Jason <shty1990@163.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sososoyoung/vue-hook-store.git"
+    "url": "https://github.com/sososoyoung/vue3-hook-store.git"
   },
   "bugs": {
-    "url": "https://github.com/sososoyoung/vue-hook-store/issues"
+    "url": "https://github.com/sososoyoung/vue3-hook-store/issues"
   },
-  "homepage": "https://github.com/sososoyoung/vue-hook-store#readme",
+  "homepage": "https://github.com/sososoyoung/vue3-hook-store#readme",
   "license": "MIT",
   "scripts": {
     "build": "rimraf dist && rollup -c",
@@ -29,12 +28,10 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "@vue/composition-api": "^1.0.0-beta.14",
-    "vue": "^2.6.0"
+    "vue": "^3.1.5"
   },
   "dependencies": {
-    "@vue/composition-api": "^1.0.0-beta.14",
-    "vue": "^2.6.0"
+    "vue": "^3.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",

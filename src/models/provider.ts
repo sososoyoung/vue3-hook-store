@@ -1,4 +1,4 @@
-import { inject, provide } from "@vue/composition-api";
+import { inject, provide } from "vue";
 import { ParamType } from "../types";
 
 const CACHE_CONFIG = {
